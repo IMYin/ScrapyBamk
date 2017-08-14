@@ -1,0 +1,138 @@
+
+python: can't open file 'quota_analysis.py': [Errno 2] No such file or directory
+
+It costs 0.017292 sec to run it.
+Today is 2017-01-18...
+	zip warning: name not matched: 2017-01-18/*
+
+zip error: Nothing to do! (try: zip -r 2017-01-18 . -i 2017-01-18/*)
+
+It costs 0.022867 sec to run it.
+Today is 2017-01-18...
+
+It costs 0.01699 sec to run it.
+Today is 2017-01-18...
+
+It costs 0.016287 sec to run it.
+Today is 2017-01-18...
+{}
+
+It costs 0.023136 sec to run it.
+Today is 2017-01-18...
+Traceback (most recent call last):
+  File "Quota.py", line 288, in <module>
+    codes = get_useful_codes()
+  File "Quota.py", line 217, in get_useful_codes
+    for code, words in get_inter_codes().items():
+  File "Quota.py", line 51, in get_inter_codes
+    print u"连上了，亲。。。"
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-7: ordinal not in range(128)
+connected......
+{}
+
+It costs 0.023407 sec to run it.
+Today is 2017-01-18...
+nohup: ignoring input
+2017-01-15 is not trading day...
+nohup: ignoring input
+Traceback (most recent call last):
+  File "Quota.py", line 20, in <module>
+    import tushare as ts
+  File "/home/imyin/anaconda2/lib/python2.7/site-packages/tushare/__init__.py", line 98, in <module>
+    from tushare.trader.trader import TraderAPI
+  File "/home/imyin/anaconda2/lib/python2.7/site-packages/tushare/trader/trader.py", line 19, in <module>
+    from astropy.units import acount
+  File "/home/imyin/anaconda2/lib/python2.7/site-packages/astropy/units/__init__.py", line 40, in <module>
+    set_enabled_units([si, cgs, astrophys, function_units])
+  File "/home/imyin/anaconda2/lib/python2.7/site-packages/astropy/units/core.py", line 327, in set_enabled_units
+    get_current_unit_registry().set_enabled_units(units)
+  File "/home/imyin/anaconda2/lib/python2.7/site-packages/astropy/units/core.py", line 161, in set_enabled_units
+    return self.add_enabled_units(units)
+  File "/home/imyin/anaconda2/lib/python2.7/site-packages/astropy/units/core.py", line 179, in add_enabled_units
+    units = _flatten_units_collection(units)
+  File "/home/imyin/anaconda2/lib/python2.7/site-packages/astropy/units/core.py", line 62, in _flatten_units_collection
+    result.add(unit)
+  File "/home/imyin/anaconda2/lib/python2.7/site-packages/astropy/units/core.py", line 1941, in __hash__
+    return hash(self.name) + hash(self._represents)
+  File "/home/imyin/anaconda2/lib/python2.7/site-packages/astropy/units/core.py", line 1571, in name
+    return self._names[0]
+KeyboardInterrupt
+	zip warning: name not matched: 2017-01-12/*
+
+zip error: Nothing to do! (try: zip -r 2017-01-12 . -i 2017-01-12/*)
+Traceback (most recent call last):
+  File "SendMail.py", line 76, in <module>
+    run_send(file_names)
+  File "SendMail.py", line 54, in run_send
+    mail_msg = u'<p>{}<br>{}</p><p><img src="cid:{}"></p>'.format(item, dict_contents[item[6:-4]], item)
+KeyError: u'\u4e2d\u6cf0\u6865\u6881\uff1a\u63a7\u80a1\u80a1\u4e1c\u589e\u6301 \u63d0\u632f\u80a1\u4ef7'
+nohup: ignoring input
+
+It costs 59.587046 sec to run it.
+Today is 2017-01-12...
+  adding: 2017-01-12/*ST南电Ａ：2016年度预盈约13亿元 利好股价.pdf (deflated 7%)
+  adding: 2017-01-12/东方园林：中标34亿PPP项目 提振股价.pdf (deflated 7%)
+  adding: 2017-01-12/亿纬锂能：2016年度业绩预增60%-88% 股价有望随业绩逐步提升.pdf (deflated 7%)
+  adding: 2017-01-12/兴业银行：非公开发行获发审委通过 股价中性看多.pdf (deflated 5%)
+  adding: 2017-01-12/天沃科技：中标1.3亿元项目 提振股价.pdf (deflated 5%)
+  adding: 2017-01-12/奥瑞德：实控人拟半年内增持200万股至1000万股 对股价有正面影响.pdf (deflated 5%)
+  adding: 2017-01-12/扬杰科技：2016年度业绩预增45%-60% 提振股价.pdf (deflated 8%)
+  adding: 2017-01-12/海信科龙：2016年业绩预增80%-100%   股价存上涨潜力.pdf (deflated 11%)
+  adding: 2017-01-12/胜宏科技：2016年净利预增78%-90% 提振股价.pdf (deflated 13%)
+  adding: 2017-01-12/腾邦国际：实控人增持公司股份 提振投资者信心.pdf (deflated 11%)
+  adding: 2017-01-12/莱茵生物：获控股股东一致行动人增持130万股 提振股价.pdf (deflated 11%)
+  adding: 2017-01-12/超声电子：2016年度业绩预增55%-75% 利好股价.pdf (deflated 6%)
+Traceback (most recent call last):
+  File "SendMail.py", line 76, in <module>
+    run_send(file_names)
+  File "SendMail.py", line 54, in run_send
+    mail_msg = u'<p>{}<br>{}</p><p><img src="cid:{}"></p>'.format(item, dict_contents[item[6:-4]], item)
+KeyError: u'\u4e2d\u6cf0\u6865\u6881\uff1a\u63a7\u80a1\u80a1\u4e1c\u589e\u6301 \u63d0\u632f\u80a1\u4ef7'
+nohup: ignoring input
+
+It costs 49.588688 sec to run it.
+Today is 2017-01-12...
+  adding: 2017-01-12/*ST南电Ａ：2016年度预盈约13亿元 利好股价.pdf (deflated 7%)
+  adding: 2017-01-12/东方园林：中标34亿PPP项目 提振股价.pdf (deflated 7%)
+  adding: 2017-01-12/亿纬锂能：2016年度业绩预增60%-88% 股价有望随业绩逐步提升.pdf (deflated 7%)
+  adding: 2017-01-12/兴业银行：非公开发行获发审委通过 股价中性看多.pdf (deflated 5%)
+  adding: 2017-01-12/天沃科技：中标1.3亿元项目 提振股价.pdf (deflated 5%)
+  adding: 2017-01-12/奥瑞德：实控人拟半年内增持200万股至1000万股 对股价有正面影响.pdf (deflated 5%)
+  adding: 2017-01-12/扬杰科技：2016年度业绩预增45%-60% 提振股价.pdf (deflated 8%)
+  adding: 2017-01-12/海信科龙：2016年业绩预增80%-100%   股价存上涨潜力.pdf (deflated 11%)
+  adding: 2017-01-12/胜宏科技：2016年净利预增78%-90% 提振股价.pdf (deflated 13%)
+  adding: 2017-01-12/腾邦国际：实控人增持公司股份 提振投资者信心.pdf (deflated 11%)
+  adding: 2017-01-12/莱茵生物：获控股股东一致行动人增持130万股 提振股价.pdf (deflated 11%)
+  adding: 2017-01-12/超声电子：2016年度业绩预增55%-75% 利好股价.pdf (deflated 6%)
+
+It costs 52.550961 sec to run it.
+Today is 2017-01-18...
+  adding: 2017-01-18/*ST昆机：董事长王兴辞职 影响或有限.pdf (deflated 4%)
+  adding: 2017-01-18/*ST生物:2016年度业绩预计扭亏为盈 利好股价.pdf (deflated 8%)
+  adding: 2017-01-18/*ST钱江：全资子公司参股公司IPO获批 利好股价.pdf (deflated 11%)
+  adding: 2017-01-18/万业企业：2016年年度业绩预增220%-260%  影响积极利好股价.pdf (deflated 7%)
+  adding: 2017-01-18/东南网架：非公开发行获证监会通过有助反弹.pdf (deflated 5%)
+  adding: 2017-01-18/东杰智能：签订8109万元合同 有助股价反弹.pdf (deflated 11%)
+  adding: 2017-01-18/东软集团：东软控股成第一大股东 股价有望趋稳.pdf (deflated 4%)
+  adding: 2017-01-18/中国软件：2016净利润预增70% 股价或走强.pdf (deflated 7%)
+  adding: 2017-01-18/中房地产:为扩大公司经营规模  公司进行对外投资.pdf (deflated 7%)
+  adding: 2017-01-18/优德精密：拟10转10派2元 股价或有走强可能.pdf (deflated 8%)
+  adding: 2017-01-18/华西股份：上调业绩预期 提振股价.pdf (deflated 9%)
+  adding: 2017-01-18/厦门国贸：2016净利增50%-100% 股价或上涨.pdf (deflated 5%)
+  adding: 2017-01-18/同济堂：16年业绩大增有助股价反弹.pdf (deflated 4%)
+  adding: 2017-01-18/圣农发展:2016年度净利润约67,000万元—69,000万元 提振股价.pdf (deflated 7%)
+  adding: 2017-01-18/坚瑞沃能：2016净利润增10倍 股价或继续向上.pdf (deflated 7%)
+  adding: 2017-01-18/巴安水务：2016净利增长 股价或反弹.pdf (deflated 14%)
+  adding: 2017-01-18/德展健康：2016年净利预增超百倍 股价走高是大概率.pdf (deflated 8%)
+  adding: 2017-01-18/杭钢股份：2016年业绩同比大幅扭亏  股价走高是大概率.pdf (deflated 6%)
+  adding: 2017-01-18/海南高速：2016有望扭亏 助力股价走强.pdf (deflated 6%)
+  adding: 2017-01-18/禾嘉股份：2016年年度业绩预增160%左右  影响偏中性.pdf (deflated 9%)
+  adding: 2017-01-18/科恒股份:2016年度业绩净利润约3000万元-3600万元 提振股价.pdf (deflated 9%)
+  adding: 2017-01-18/粤高速Ａ：2016净利预增 助力股价走强.pdf (deflated 8%)
+  adding: 2017-01-18/英唐智控：业绩预增与拟回购有助股价反弹.pdf (deflated 9%)
+  adding: 2017-01-18/荣盛发展：子公司与保利江苏合作开发地产项目 有助股价走强.pdf (deflated 5%)
+  adding: 2017-01-18/莲花健康：2016年度业绩扭亏为盈 利好股价.pdf (deflated 3%)
+  adding: 2017-01-18/越秀金控：2016年净利预增145%-175% 利好股价.pdf (deflated 8%)
+  adding: 2017-01-18/锡业股份：非公开获证监会通过 有助股价上涨.pdf (deflated 5%)
+  adding: 2017-01-18/顺络电子：非公开发行获证监会通过 股价或反弹.pdf (deflated 11%)
+  adding: 2017-01-18/鸿达兴业：非公开发行获通过 股价或继续向上.pdf (deflated 6%)
